@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ABA99481F23BEE900F99484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA99471F23BEE900F99484 /* AppDelegate.swift */; };
+		5ABA994A1F23BEE900F99484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA99491F23BEE900F99484 /* ViewController.swift */; };
+		5ABA994D1F23BEE900F99484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA994B1F23BEE900F99484 /* Main.storyboard */; };
+		5ABA994F1F23BEE900F99484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA994E1F23BEE900F99484 /* Assets.xcassets */; };
+		5ABA99521F23BEE900F99484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA99501F23BEE900F99484 /* LaunchScreen.storyboard */; };
+		5ABA995D1F23BEE900F99484 /* LearnHangulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA995C1F23BEE900F99484 /* LearnHangulTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ABA99591F23BEE900F99484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABA993C1F23BEE900F99484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABA99431F23BEE900F99484;
+			remoteInfo = LearnHangul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ABA99441F23BEE900F99484 /* LearnHangul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnHangul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABA99471F23BEE900F99484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ABA99491F23BEE900F99484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ABA994C1F23BEE900F99484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ABA994E1F23BEE900F99484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ABA99511F23BEE900F99484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ABA99531F23BEE900F99484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABA99581F23BEE900F99484 /* LearnHangulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnHangulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABA995C1F23BEE900F99484 /* LearnHangulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnHangulTests.swift; sourceTree = "<group>"; };
+		5ABA995E1F23BEE900F99484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABA99411F23BEE900F99484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABA99551F23BEE900F99484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABA993B1F23BEE900F99484 = {
+			isa = PBXGroup;
+			children = (
+				5ABA99461F23BEE900F99484 /* LearnHangul */,
+				5ABA995B1F23BEE900F99484 /* LearnHangulTests */,
+				5ABA99451F23BEE900F99484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABA99451F23BEE900F99484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABA99441F23BEE900F99484 /* LearnHangul.app */,
+				5ABA99581F23BEE900F99484 /* LearnHangulTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ABA99461F23BEE900F99484 /* LearnHangul */ = {
+			isa = PBXGroup;
+			children = (
+				5ABA99471F23BEE900F99484 /* AppDelegate.swift */,
+				5ABA99491F23BEE900F99484 /* ViewController.swift */,
+				5ABA994B1F23BEE900F99484 /* Main.storyboard */,
+				5ABA994E1F23BEE900F99484 /* Assets.xcassets */,
+				5ABA99501F23BEE900F99484 /* LaunchScreen.storyboard */,
+				5ABA99531F23BEE900F99484 /* Info.plist */,
+			);
+			path = LearnHangul;
+			sourceTree = "<group>";
+		};
+		5ABA995B1F23BEE900F99484 /* LearnHangulTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABA995C1F23BEE900F99484 /* LearnHangulTests.swift */,
+				5ABA995E1F23BEE900F99484 /* Info.plist */,
+			);
+			path = LearnHangulTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABA99431F23BEE900F99484 /* LearnHangul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABA99611F23BEE900F99484 /* Build configuration list for PBXNativeTarget "LearnHangul" */;
+			buildPhases = (
+				5ABA99401F23BEE900F99484 /* Sources */,
+				5ABA99411F23BEE900F99484 /* Frameworks */,
+				5ABA99421F23BEE900F99484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnHangul;
+			productName = LearnHangul;
+			productReference = 5ABA99441F23BEE900F99484 /* LearnHangul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABA99571F23BEE900F99484 /* LearnHangulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABA99641F23BEE900F99484 /* Build configuration list for PBXNativeTarget "LearnHangulTests" */;
+			buildPhases = (
+				5ABA99541F23BEE900F99484 /* Sources */,
+				5ABA99551F23BEE900F99484 /* Frameworks */,
+				5ABA99561F23BEE900F99484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABA995A1F23BEE900F99484 /* PBXTargetDependency */,
+			);
+			name = LearnHangulTests;
+			productName = LearnHangulTests;
+			productReference = 5ABA99581F23BEE900F99484 /* LearnHangulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABA993C1F23BEE900F99484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Bijective;
+				TargetAttributes = {
+					5ABA99431F23BEE900F99484 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5ABA99571F23BEE900F99484 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5ABA99431F23BEE900F99484;
+					};
+				};
+			};
+			buildConfigurationList = 5ABA993F1F23BEE900F99484 /* Build configuration list for PBXProject "LearnHangul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABA993B1F23BEE900F99484;
+			productRefGroup = 5ABA99451F23BEE900F99484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABA99431F23BEE900F99484 /* LearnHangul */,
+				5ABA99571F23BEE900F99484 /* LearnHangulTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABA99421F23BEE900F99484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABA99521F23BEE900F99484 /* LaunchScreen.storyboard in Resources */,
+				5ABA994F1F23BEE900F99484 /* Assets.xcassets in Resources */,
+				5ABA994D1F23BEE900F99484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABA99561F23BEE900F99484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABA99401F23BEE900F99484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABA994A1F23BEE900F99484 /* ViewController.swift in Sources */,
+				5ABA99481F23BEE900F99484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABA99541F23BEE900F99484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABA995D1F23BEE900F99484 /* LearnHangulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABA995A1F23BEE900F99484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABA99431F23BEE900F99484 /* LearnHangul */;
+			targetProxy = 5ABA99591F23BEE900F99484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ABA994B1F23BEE900F99484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ABA994C1F23BEE900F99484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ABA99501F23BEE900F99484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ABA99511F23BEE900F99484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ABA995F1F23BEE900F99484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABA99601F23BEE900F99484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABA99621F23BEE900F99484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LearnHangul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bijective.LearnHangul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5ABA99631F23BEE900F99484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LearnHangul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bijective.LearnHangul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5ABA99651F23BEE900F99484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LearnHangulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bijective.LearnHangulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnHangul.app/LearnHangul";
+			};
+			name = Debug;
+		};
+		5ABA99661F23BEE900F99484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LearnHangulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bijective.LearnHangulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnHangul.app/LearnHangul";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABA993F1F23BEE900F99484 /* Build configuration list for PBXProject "LearnHangul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABA995F1F23BEE900F99484 /* Debug */,
+				5ABA99601F23BEE900F99484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABA99611F23BEE900F99484 /* Build configuration list for PBXNativeTarget "LearnHangul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABA99621F23BEE900F99484 /* Debug */,
+				5ABA99631F23BEE900F99484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ABA99641F23BEE900F99484 /* Build configuration list for PBXNativeTarget "LearnHangulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABA99651F23BEE900F99484 /* Debug */,
+				5ABA99661F23BEE900F99484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABA993C1F23BEE900F99484 /* Project object */;
+}

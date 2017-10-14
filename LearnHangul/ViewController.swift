@@ -2,8 +2,7 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-    var bombSoundEffect: AVAudioPlayer!
-    
+    var player: AVAudioPlayer!
     
     @IBAction func bieupTouched() {
         play(fromPath: load(fromName: "bieup"))
@@ -81,11 +80,11 @@ class ViewController: UIViewController {
         let url = URL(fileURLWithPath: path)
         
         do {
-            let sound = try AVAudioPlayer(contentsOf: url)
-            bombSoundEffect = sound
-            sound.play()
+            player = try AVAudioPlayer(contentsOf: url)
+            player.play()
         } catch
         {
+            print("here")
         }
     }
     
